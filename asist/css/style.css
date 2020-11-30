@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Castoro', sans-serif;
+}
+
+
+body {
+	background-color: transparent;
+	-webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-text-stroke: 1px transparent;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+
+
+h1 {font-size: 50px; line-height: 85px; font-weight: 200;}
+h2 {font-size: 36px; line-height: 62px; font-weight: 600;}
+h3 {font-size: 32px; line-height: 55px; font-weight: 600;}
+h4 {font-size: 28px; line-height: 48px; font-weight: 600;}
+h5 {font-size: 26px; line-height: 45px; font-weight: 600;}
+h6 {font-size: 22px; line-height: 38px; font-weight: 600;}
+
+
+
+p, a {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+/*navber
+---------------------------------------------------------------------------------------*/
+
+.navbar-brand {
+
+	font-weight: 700;
+}
+
+.bg-light {
+	background-color: white !important;
+}
+
+.navbar-white .navbar-nav .nav-link {
+	font-weight: 600;
+	color: #000000 !important;
+}
+
+.navbar-white .navbar-nav .nav-link:hover {
+	background-color: #0000FF;
+	color: #000000 !important;
+	border-radius: 10px;
+	
+}
+
+
+.navbar-white .navbar-toggler:focus {
+    background-color: : #0000FF !important;
+
+}
+
+
+/*fontvew
+-------------------------------------------------------------------------------------*/
+
+.fontvew{
+	margin-top: 70px;
+	padding: 0px;
+	width: 100%;
+	height: 900px;
+	background-image: url(../img/pic1.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	clip-path: polygon(0 0, 100% 0, 100% 89%, 0% 100%);
+}
+.overlay{
+	margin-top: 70px;
+	padding: 50px;
+	margin: 00px;
+	padding: 0px;
+	width: 100%;
+	height: 900px;
+	background-color:rgba(0,0,0,.5);
+	clip-path: polygon(0 0, 100% 0, 100% 89%, 0% 100%);
+
+}
